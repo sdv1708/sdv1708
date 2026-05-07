@@ -65,10 +65,10 @@
 
 | Project | What it does | Stack |
 |---------|-------------|-------|
-| [**Clinical Decision Support System**](https://github.com/sdv1708) | 3-agent system using a Coordinator pattern with MCP tool handlers, RAI guardrails, and eval-gated CI/CD — production-grade observability and responsible AI controls. | Google ADK · Gemini · MCP · RAG · Cloud Run |
-| [**Executive Intelligence Copilot**](https://github.com/sdv1708) | Multi-agent LLM system with tool-calling workflows, function-level routing, and structured decision support over unstructured data. | LangChain · FAISS · SQLite |
-| [**Distributed Reservation & Payment Engine**](https://github.com/sdv1708) | Concurrency-safe APIs using row-level locking — eliminates race conditions and guarantees consistency in high-concurrency booking workflows. | FastAPI · PostgreSQL · Supabase |
-| [**Task Scheduling Engine**](https://github.com/sdv1708) | Master-worker architecture with custom load-balancing algorithms for efficient distributed execution. Built from primitives. | Python · TCP Sockets · Multithreading |
+| [**Clinical Decision Support System**](https://github.com/sdv1708/Diagnostic-Stack) | 3-agent system using a Coordinator pattern with MCP tool handlers, RAI guardrails, and eval-gated CI/CD — production-grade observability and responsible AI controls. | Google ADK · Gemini · MCP · RAG · Cloud Run |
+| [**Executive Intelligence Copilot**](https://github.com/sdv1708/intelligence_copilot) | Multi-agent LLM system with tool-calling workflows, function-level routing, and structured decision support over unstructured data. | LangChain · FAISS · SQLite |
+| [**Distributed Reservation & Payment Engine**](https://github.com/sdv1708/concurrent-reservation) | Concurrency-safe APIs using row-level locking — eliminates race conditions and guarantees consistency in high-concurrency booking workflows. | FastAPI · PostgreSQL · Supabase |
+| [**GPT Clone**](https://github.com/sdv1708/gpt-scratch) | GPT from Scratch. Built from primitives. | Python · PyTorch · Numpy · First Principles |
 
 ---
 
@@ -94,6 +94,16 @@ IQVIA (SDE — Backend)                    → REST APIs · 1.2M+ annual transac
 ## GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=sdv1708&show_icons=true&theme=tokyonight&hide_border=true" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sdv1708&layout=compact&theme=tokyonight&hide_border=true" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=sdv1708&theme=tokyonight" />
+</p>
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=sdv1708&theme=tokyonight" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=sdv1708&theme=tokyonight" />
+</p>
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=sdv1708&theme=tokyonight" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=sdv1708&theme=tokyonight&utcOffset=-6" />
+</p>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=sdv1708&theme=tokyonight" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=sdv1708&theme=tokyonight&utcOffset=-6" />
 </p>
