@@ -15,12 +15,24 @@
 
 ## About Me
 
-- 🎓 **M.S. Information Systems** — University of Maryland, R.H. Smith School of Business (Dec 2025)
-- 🤖 **Software Engineer Intern, AI @ Connyct (CampusAI)** — Built a multi-agent GenAI platform integrating 31 enterprise data sources with production RAG (95% accuracy, ≤2s latency)
-- 🏛️ **SDE @ University of Maryland — Community Preservation Trust** — Full-stack AI-ready platform (React · Flask · MySQL) serving 15K+ users with JWT/RBAC
-- 🏢 Previously **Backend SDE @ IQVIA (Bangalore)** — REST APIs handling 1.2M+ annual transactions, distributed event-driven microservices processing 3K+ msgs/sec in regulated production
-- 🎯 Focused on: **distributed systems, LLM evaluation, RAG pipelines, multi-agent orchestration, production ML infra**
+- 🎓 **M.S. Information Systems** — University of Maryland, R.H. Smith School of Business (Dec 2025). Coursework spanning distributed systems, ML, and applied AI. Previously **B.S. Electronics Engineering** from PES University (2022).
 
+- 🤖 **Software Engineer Intern, AI @ Connyct (CampusAI)** *(Sep 2025 – Dec 2025)* — Built a multi-agent GenAI platform on AWS Bedrock orchestrating LLMs across 31 enterprise data sources (Elasticsearch, DynamoDB, S3). Engineered the production RAG pipeline (FAISS · Sentence Transformers · Redis) with optimized retrieval and prompt templating, hitting **95% event discovery accuracy** at **≤2s inference latency**. Also wired up evaluation pipelines (DeepEval, LLM-as-Judge, AgentOps) as **release gates in GitHub Actions** to catch low-quality models before they ship.
+
+- 🏛️ **Software Development Engineer @ UMD — Community Preservation Trust** *(Feb 2025 – Dec 2025)* — End-to-end ownership of a full-stack AI-ready platform (React · Flask · MySQL · REST) for **15K+ users**, including JWT auth and RBAC. Diagnosed reliability issues via telemetry analysis, then refactored MySQL schemas and queries — cutting infrastructure cost and improving system reliability. Ran on agile delivery cycles translating stakeholder requirements into production code.
+
+- 🏢 **Software Development Engineer @ IQVIA (Bangalore)** *(Jul 2022 – Jul 2024)* — Two years building backend systems in regulated fintech / life-sciences production:
+  - REST APIs (FastAPI · PostgreSQL) supporting **1.2M+ annual transactions** at sub-second latency
+  - Distributed event-driven microservices (Docker · Kubernetes · Azure Service Bus) processing **3K+ msgs/sec** with audit-ready fault tolerance
+  - Airflow-orchestrated OCR pipeline (Tesseract · OpenCV · Donut) for Mandarin financial document extraction — **+70% throughput** improvement
+  - GPT-3.5 document workflows on Azure Functions hitting **95% extraction accuracy**, replacing manual regulatory review
+
+- 🛠️ **Currently building** — A 3-agent **clinical decision support system** using Google ADK + Gemini + MCP with RAI guardrails and eval-gated CI/CD on Cloud Run. Also maintaining an **executive intelligence copilot** (LangChain · FAISS) and a **concurrency-safe reservation engine** (FastAPI · PostgreSQL row-level locking).
+
+- 🎯 **Focus areas** — Distributed systems · LLM evaluation (DeepEval, LLM-as-Judge, AgentOps) · RAG pipelines · multi-agent orchestration (LangChain, Google ADK, MCP) · production ML infrastructure · backend APIs at scale
+
+- 🌎 **Open to** — Backend SWE · AI/ML Engineering · ML Infra roles · Remote / Hybrid · United States
+- 
 ---
 
 ## Tech Stack
@@ -101,9 +113,6 @@ IQVIA (SDE — Backend)                    → REST APIs · 1.2M+ annual transac
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=sdv1708&theme=tokyonight" />
 </p>
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=sdv1708&theme=tokyonight" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=sdv1708&theme=tokyonight&utcOffset=-6" />
-</p>
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=sdv1708&theme=tokyonight" />
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=sdv1708&theme=tokyonight&utcOffset=-6" />
 </p>
