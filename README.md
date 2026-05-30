@@ -22,7 +22,9 @@
   - Engineered the production RAG pipeline (FAISS · Sentence Transformers · Redis) with optimized retrieval and prompt templating, hitting **95% event discovery accuracy** at **≤2s inference latency**.
   - Wired up evaluation pipelines (DeepEval, LLM-as-Judge, AgentOps) as **release gates in GitHub Actions** to catch low-quality models before they ship.
 
-- 🏛️ **Software Development Engineer @ UMD — Community Preservation Trust** *(Feb 2025 – Dec 2025)* — End-to-end ownership of a full-stack platform (React · Flask · MySQL · REST) for **15K+ users**, including JWT auth and RBAC. Ran on agile delivery cycles translating stakeholder requirements into production code.
+- 🏛️ **Software Development Engineer @ UMD — Community Preservation Trust** *(Feb 2025 – Dec 2025)* —
+  - End-to-end ownership of a full-stack platform (React · Flask · MySQL · REST) for **15K+ users**, including JWT auth and RBAC.
+  - Ran on agile delivery cycles translating stakeholder requirements into production code.
 
 - 🏢 **Software Development Engineer @ IQVIA (Bangalore)** *(Jul 2022 – Jul 2024)* — Two years building backend systems in regulated fintech / life-sciences production:
   - REST APIs (FastAPI · PostgreSQL) supporting **1.2M+ annual transactions** at sub-second latency
