@@ -17,12 +17,12 @@
 
 - 🎓 **M.S. Information Systems** — University of Maryland, R.H. Smith School of Business (Dec 2025). Coursework spanning distributed systems, ML, and applied AI. Previously **B.S. Electronics Engineering** from PES University (2022).
 
-- 🤖 **Software Engineer Intern, AI @ Connyct (CampusAI)** *(Sep 2025 – Dec 2025)* —
+- 🤖 **Software Engineer Intern, AI @ Connyct (CampusAI)** *(Sep 2025 – Dec 2025)*
   - Built a multi-agent GenAI platform on AWS Bedrock orchestrating LLMs across 31 enterprise data sources (Elasticsearch, DynamoDB, S3).
   - Engineered the production RAG pipeline (FAISS · Sentence Transformers · Redis) with optimized retrieval and prompt templating, hitting **95% event discovery accuracy** at **≤2s inference latency**.
   - Wired up evaluation pipelines (DeepEval, LLM-as-Judge, AgentOps) as **release gates in GitHub Actions** to catch low-quality models before they ship.
 
-- 🏛️ **Software Development Engineer @ UMD — Community Preservation Trust** *(Feb 2025 – Dec 2025)* —
+- 🏛️ **Software Development Engineer @ UMD — Community Preservation Trust** *(Feb 2025 – Dec 2025)*
   - End-to-end ownership of a full-stack platform (React · Flask · MySQL · REST) for **15K+ users**, including JWT auth and RBAC.
   - Ran on agile delivery cycles translating stakeholder requirements into production code.
 
@@ -106,17 +106,3 @@ IQVIA (SDE — Backend)                    → REST APIs · 1.2M+ annual transac
 ```
 
 ---
-
-## GitHub Stats
-
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=sdv1708&theme=tokyonight" />
-</p>
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=sdv1708&theme=tokyonight" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=sdv1708&theme=tokyonight" />
-</p>
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=sdv1708&theme=tokyonight" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=sdv1708&theme=tokyonight&utcOffset=-6" />
-</p>
