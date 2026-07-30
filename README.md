@@ -12,7 +12,7 @@
   <a href="https://github.com/sdv1708?tab=repositories">Repositories</a>
 </p>
 
-## I build systems that have to earn trust.
+## Somewhere between distributed systems and applied AI.
 
 I am a software engineer working across agentic AI, backend engineering, and
 distributed systems. I am deeply interested in system design, the intricacies
@@ -22,6 +22,10 @@ understandable, scalable, and maintainable as they grow.
 My work spans multi-agent workflows, retrieval systems, evaluation pipelines,
 concurrency-safe APIs, and the lower-level mechanics behind language models and
 distributed storage.
+
+Away from the terminal, I am usually watching MMA, cooking something ambitious,
+working out, or riding motorcycles. I am also slowly turning my own bike into a
+café racer.
 
 ## Featured projects
 
