@@ -1,107 +1,129 @@
-<h1 align="center">Hi, I'm Sanjay Dari Veerabasappa 👋</h1>
-
 <p align="center">
-  <b>Backend & AI/ML Engineer · UMD MS Information Systems '25</b><br/>
-  Building distributed systems, RAG pipelines, and multi-agent LLM infrastructure.
+  <img src="./assets/profile-header.svg" alt="Sanjay DV — Software Engineer focused on agentic systems and backend engineering" width="100%">
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/sanjaydv/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white"/></a>
-  <a href="mailto:sanjaydv@umd.edu"><img src="https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white"/></a>
-  <a href="https://github.com/sdv1708"><img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white"/></a>
+  <a href="https://www.linkedin.com/in/sanjay-dv/">LinkedIn</a>
+  &nbsp;&nbsp;/&nbsp;&nbsp;
+  <a href="mailto:reach.sdv1708@gmail.com">Email</a>
+  &nbsp;&nbsp;/&nbsp;&nbsp;
+  <a href="https://github.com/sdv1708?tab=repositories">Repositories</a>
 </p>
 
+## I build systems that have to earn trust.
+
+I am a software engineer working across agentic AI, backend engineering, and
+distributed systems. I am especially interested in applications where model
+outputs need to be grounded, inspectable, and supported by reliable software
+around them.
+
+My work spans multi-agent workflows, retrieval systems, evaluation pipelines,
+concurrency-safe APIs, and the lower-level mechanics behind language models and
+distributed storage.
+
+## Featured projects
+
+### [PostMortem AI](https://github.com/sdv1708/postmortem)
+
+An evidence-first incident analysis system that turns logs, traces, and deployment
+notes into a reviewable postmortem. Its six-stage pipeline uses specialized
+generation, criticism, and verification steps; every claim is cited or marked as
+an assumption, and the final root-cause decision remains with a human reviewer.
+
+[Repository](https://github.com/sdv1708/postmortem) /
+[Live demo](https://postmortem-frontend-euyq.onrender.com/)
+
+`Python` `FastAPI` `Next.js` `TypeScript` `Pydantic` `SQLAlchemy`
+
+### [Executive Intelligence Copilot](https://github.com/sdv1708/intelligence_copilot)
+
+A supervisor-orchestrated RAG system that converts meeting documents into cited
+executive briefs and grounded follow-up answers. Parallel research agents,
+evidence-preserving retrieval, cross-meeting memory, and execution traces make
+the system's conclusions inspectable.
+
+`FastAPI` `LangGraph` `React` `TypeScript` `FAISS` `SQLite`
+
+### [Concurrent Reservation API](https://github.com/sdv1708/concurrent-reservation)
+
+A hotel reservation backend built around transactional correctness. Row-level
+locking prevents double bookings, a strict state machine governs reservation and
+payment transitions, and signed Stripe webhooks safely finalize asynchronous
+payments.
+
+`Python` `FastAPI` `SQLAlchemy` `PostgreSQL` `Stripe` `pytest`
+
+## Currently developing
+
+### [Distributed Key-Value Store](https://github.com/sdv1708/distributed-kv-store)
+
+Designing a key-value store from first principles, beginning with a crash-safe
+LSM-tree storage engine using a write-ahead log, memtable, SSTables, Bloom
+filters, compaction, and tombstones. The distributed design explores consistent
+hashing, replication, tunable quorums, and vector-clock conflict detection.
+
+`Python` `LSM tree` `WAL` `consistent hashing` `quorum consensus`
+
+### [GPT from Scratch](https://github.com/sdv1708/gpt-scratch)
+
+Building a working GPT one primitive at a time. The completed foundations derive
+gradient descent, backpropagation, initialization, and normalization explicitly
+in NumPy and PyTorch; attention and transformer blocks are now in progress.
+
+`Python` `NumPy` `PyTorch` `transformers` `first-principles ML`
+
+## Experience
+
+**Software Engineer, AI — Virtual Gold**<br>
+*June 2026 – Present*
+
+Deeply involved in learning, implementing, and understanding agentic workflows
+and applications, with an emphasis on turning emerging patterns into reliable,
+production-minded software.
+
+**Software Engineer Intern, AI — Connyct / CampusAI**<br>
+*September 2025 – December 2025*
+
+Developed and deployed a production LLM recommendation service using RAG,
+Elasticsearch vector retrieval, Redis caching, Amazon Bedrock, and AWS ECS.
+Introduced evaluation-driven release gates for hallucination, relevance,
+groundedness, and latency.
+
+**Software Development Engineer — University of Maryland, Community Preservation Trust**<br>
+*February 2025 – December 2025*
+
+Helped transform email-based and handwritten rental operations into a secure,
+multi-tenant React and Flask platform serving more than 15,000 applicants and
+administrators.
+
+**Software Development Engineer, AI and Backend — IQVIA**<br>
+*March 2022 – July 2024*
+
+Built AI-assisted document-processing and backend systems in regulated
+production environments. The work included Azure-hosted extraction workflows,
+Airflow-orchestrated OCR pipelines, event-driven services processing more than
+3,000 messages per second, and FastAPI services over high-volume PostgreSQL
+payment data.
+
+## Engineering toolkit
+
+| Area | Technologies |
+| --- | --- |
+| Languages | Python, TypeScript, SQL |
+| Applied AI | LLMs, RAG, LangChain, LangGraph, Google ADK, DeepEval, PyTorch, scikit-learn, Hugging Face |
+| Backend and data | FastAPI, Flask, React, PostgreSQL, MySQL, Redis, Pinecone, Kafka, Airflow, Elasticsearch |
+| Infrastructure | AWS, Azure, Docker, Kubernetes, CI/CD, Linux, Claude Code, Cursor |
+
+## Education
+
+**M.S. in Information Systems** — University of Maryland, Robert H. Smith School
+of Business, December 2025
+
+**B.S. in Electronics Engineering** — PES University, May 2022
+
 ---
 
-## About Me
-
-- 🎓 **M.S. Information Systems** — University of Maryland, R.H. Smith School of Business (Dec 2025). Coursework spanning distributed systems, ML, and applied AI. Previously **B.S. Electronics Engineering** from PES University (2022).
-
-- 🤖 **Software Engineer Intern, AI @ Connyct (CampusAI)** *(Sep 2025 – Dec 2025)*
-  - Engineered the production RAG pipeline (ElasticSearch · Sentence Transformers · Redis) with optimized retrieval and prompt templating, hitting **95% event discovery accuracy** at **≤2s inference latency**.
-  - Wired up evaluation pipelines (DeepEval, LLM-as-Judge, AgentOps) as **release gates in GitHub Actions** to catch low-quality models before they ship.
-
-- 🏛️ **Software Development Engineer @ UMD — Community Preservation Trust** *(Feb 2025 – Dec 2025)*
-  - End-to-end ownership of a full-stack platform (React · Flask · MySQL · REST) for **15K+ users**, including JWT auth and RBAC.
-  - Ran on agile delivery cycles translating stakeholder requirements into production code.
-
-- 🏢 **Software Development Engineer @ IQVIA (Bangalore)** *(Jul 2022 – Jul 2024)* — Two years building backend systems in regulated fintech / life-sciences production:
-  - REST APIs (FastAPI · PostgreSQL) supporting **1.2M+ annual transactions** at sub-second latency
-  - Distributed event-driven microservices (Docker · Kubernetes · Azure Service Bus) processing **3K+ msgs/sec** with audit-ready fault tolerance
-  - Airflow-orchestrated OCR pipeline (Tesseract · OpenCV · Donut) for Mandarin financial document extraction — **+70% throughput** improvement
-  - GPT-3.5 document workflows on Azure Functions hitting **95% extraction accuracy**, replacing manual regulatory review
-
-- 🛠️ **Currently building** — A 3-agent **clinical decision support system** using Google ADK + Gemini + MCP with RAI guardrails and eval-gated CI/CD on Cloud Run and a **GPT** clone to deep-dive into LLM architecture.  
-
-- 🎯 **Focus areas** — Distributed systems · LLM evaluation (DeepEval, LLM-as-Judge, AgentOps) · RAG pipelines · multi-agent orchestration (LangChain, Google ADK, MCP) · production ML infrastructure · backend APIs at scale
-
-- 🌎 **Open to** — Backend SWE · AI/ML Engineering · ML Infra roles · United States
----
-
-## Tech Stack
-
-**AI & GenAI**
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logo=langchain&logoColor=white)
-![Google ADK](https://img.shields.io/badge/Google_ADK-4285F4?style=flat&logo=google&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat&logo=huggingface&logoColor=black)
-![DeepEval](https://img.shields.io/badge/DeepEval-7C3AED?style=flat)
-
-**Backend & Distributed Systems**
-
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
-![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat&logo=apachekafka&logoColor=white)
-![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=flat&logo=apacheairflow&logoColor=white)
-![REST APIs](https://img.shields.io/badge/REST_APIs-FF6C37?style=flat&logo=postman&logoColor=white)
-
-**Databases**
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
-![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=flat&logo=elasticsearch&logoColor=white)
-![FAISS](https://img.shields.io/badge/FAISS-0467DF?style=flat)
-
-**Cloud & MLOps**
-
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonaws&logoColor=white)
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat&logo=microsoftazure&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/CI/CD-2088FF?style=flat&logo=githubactions&logoColor=white)
-
----
-
-## Featured Projects
-
-| Project | What it does | Stack |
-|---------|-------------|-------|
-| [**Clinical Decision Support System**](https://github.com/sdv1708/Diagnostic-Stack) | 3-agent system using a Coordinator pattern with MCP tool handlers, RAI guardrails, and eval-gated CI/CD — production-grade observability and responsible AI controls. | Google ADK · Gemini · MCP · RAG · Cloud Run |
-| [**Executive Intelligence Copilot**](https://github.com/sdv1708/intelligence_copilot) | Multi-agent LLM system with tool-calling workflows, function-level routing, and structured decision support over unstructured data. | LangChain · FAISS · SQLite |
-| [**Distributed Reservation & Payment Engine**](https://github.com/sdv1708/concurrent-reservation) | Concurrency-safe APIs using row-level locking — eliminates race conditions and guarantees consistency in high-concurrency booking workflows. | FastAPI · PostgreSQL · Supabase |
-| [**GPT Clone**](https://github.com/sdv1708/gpt-scratch) | GPT from Scratch. Built from primitives. | Python · PyTorch · Numpy · First Principles |
-
----
-
-## Experience Highlights
-
-```
-Connyct — CampusAI (SDE Intern, AI)     → Multi-agent GenAI platform · 31 enterprise sources
-                                           Production RAG · 95% accuracy · ≤2s latency
-                                           Eval gates in CI: DeepEval · LLM-as-Judge · AgentOps
-
-UMD — Community Preservation Trust       → Full-stack AI-ready platform · 15K+ users
-(SDE)                                      React · Flask · MySQL · JWT/RBAC
-                                           Schema + query refactors → cost & reliability wins
-
-IQVIA (SDE — Backend)                    → REST APIs · 1.2M+ annual transactions
-                                           Event-driven microservices · 3K+ msgs/sec
-                                           Airflow OCR pipeline · +70% throughput
-                                           GPT-3.5 doc workflows · 95% extraction accuracy
-```
-
----
+I am open to backend, applied AI, and ML infrastructure opportunities in the
+United States. The best way to reach me is through
+[LinkedIn](https://www.linkedin.com/in/sanjay-dv/) or
+[email](mailto:reach.sdv1708@gmail.com).
