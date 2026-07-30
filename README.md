@@ -3,6 +3,8 @@
 </p>
 
 <p align="center">
+  <a href="https://portfolio-shell.dvsanjay9.workers.dev">Portfolio</a>
+  &nbsp;&nbsp;/&nbsp;&nbsp;
   <a href="https://www.linkedin.com/in/sanjay-dv/">LinkedIn</a>
   &nbsp;&nbsp;/&nbsp;&nbsp;
   <a href="mailto:reach.sdv1708@gmail.com">Email</a>
@@ -13,9 +15,9 @@
 ## I build systems that have to earn trust.
 
 I am a software engineer working across agentic AI, backend engineering, and
-distributed systems. I am especially interested in applications where model
-outputs need to be grounded, inspectable, and supported by reliable software
-around them.
+distributed systems. I am deeply interested in system design, the intricacies
+behind reliable software, and building backend and AI systems that remain
+understandable, scalable, and maintainable as they grow.
 
 My work spans multi-agent workflows, retrieval systems, evaluation pipelines,
 concurrency-safe APIs, and the lower-level mechanics behind language models and
@@ -77,33 +79,52 @@ in NumPy and PyTorch; attention and transformer blocks are now in progress.
 **Software Engineer, AI — Virtual Gold**<br>
 *June 2026 – Present*
 
-Deeply involved in learning, implementing, and understanding agentic workflows
-and applications, with an emphasis on turning emerging patterns into reliable,
-production-minded software.
+- Deeply involved in learning, implementing, and understanding agentic workflows
+  and applications, with an emphasis on turning emerging patterns into reliable,
+  production-minded software.
+- Exploring how orchestration, tool use, memory, evaluation, and human oversight
+  fit together when agentic ideas move from experimentation into real
+  applications.
 
 **Software Engineer Intern, AI — Connyct / CampusAI**<br>
 *September 2025 – December 2025*
 
-Developed and deployed a production LLM recommendation service using RAG,
-Elasticsearch vector retrieval, Redis caching, Amazon Bedrock, and AWS ECS.
-Introduced evaluation-driven release gates for hallucination, relevance,
-groundedness, and latency.
+- Developed and deployed a production LLM recommendation service that combined
+  retrieval-augmented generation, Elasticsearch vector search, Redis caching,
+  Amazon Bedrock, and containerized deployment on AWS ECS.
+- Improved recommendation relevance and service responsiveness through
+  multi-signal ranking, retrieval tuning, and caching strategies designed for
+  repeated production workloads.
+- Built an evaluation framework around hallucination, relevance, groundedness,
+  and latency, then integrated regression gates into CI/CD so model and prompt
+  changes could be assessed before release.
 
 **Software Development Engineer — University of Maryland, Community Preservation Trust**<br>
 *February 2025 – December 2025*
 
-Helped transform email-based and handwritten rental operations into a secure,
-multi-tenant React and Flask platform serving more than 15,000 applicants and
-administrators.
+- Helped replace fragmented email-based and handwritten rental processes with a
+  centralized, multi-tenant platform for applicants and administrators.
+- Developed Flask REST APIs and React workflows around application submission,
+  review, and administration, giving each user group a clearer and more
+  consistent operational path.
+- Applied JWT authentication and role-based access control to protect tenant
+  boundaries and keep sensitive workflows limited to the appropriate users.
 
 **Software Development Engineer, AI and Backend — IQVIA**<br>
 *March 2022 – July 2024*
 
-Built AI-assisted document-processing and backend systems in regulated
-production environments. The work included Azure-hosted extraction workflows,
-Airflow-orchestrated OCR pipelines, event-driven services processing more than
-3,000 messages per second, and FastAPI services over high-volume PostgreSQL
-payment data.
+- Built an Azure-hosted document-intelligence workflow that combined language
+  models, serverless functions, and object storage to improve the consistency of
+  structured data extracted from regulatory documents.
+- Designed an Airflow-orchestrated processing pipeline that used OCR, validation
+  rules, and confidence-based routing to avoid unnecessary model inference while
+  improving throughput and recovery from document failures.
+- Developed event-driven backend services with Azure Service Bus topics, queues,
+  retries, and dead-letter handling, creating a more resilient path for
+  asynchronous message processing.
+- Built FastAPI and SQLAlchemy services over PostgreSQL payment data, giving
+  operations teams clearer access to transaction summaries, outstanding
+  balances, and revenue indicators.
 
 ## Engineering toolkit
 
