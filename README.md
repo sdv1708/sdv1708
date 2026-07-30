@@ -78,6 +78,25 @@ in NumPy and PyTorch; attention and transformer blocks are now in progress.
 
 `Python` `NumPy` `PyTorch` `transformers` `first-principles ML`
 
+## Open source
+
+### [EvalTrust](https://github.com/k-dickinson/evaltrust)
+
+EvalTrust audits whether LLM evaluation results provide enough statistical
+evidence to support model-selection and release decisions. I contributed two
+merged input adapters that let users work directly with native evaluation
+exports instead of reshaping them into generic CSV files first.
+
+- [LangSmith run-export adapter](https://github.com/k-dickinson/evaltrust/pull/62) —
+  added structural format detection, per-example feedback scoring, skipped-row
+  handling, registry integration, documentation, and test coverage.
+- [Ragas result-export adapter](https://github.com/k-dickinson/evaltrust/pull/77) —
+  added native ingestion for RAG evaluation metrics such as faithfulness, answer
+  relevancy, and context precision, including invalid-score handling,
+  documentation, and tests.
+
+`Python` `LLM evaluation` `LangSmith` `Ragas` `pytest`
+
 ## Experience
 
 **Software Engineer, AI — Virtual Gold**<br>
